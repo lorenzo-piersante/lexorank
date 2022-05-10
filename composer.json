@@ -1,0 +1,21 @@
+{
+    "name": "piersante/lexorank",
+    "description": "String generator for lexicographical ordering in PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Piersante\\Lexorank\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lorenzo",
+            "email": "l.piersante0@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "vimeo/psalm": "^4.23",
+        "phpunit/phpunit": "^9.5"
+    }
+}
